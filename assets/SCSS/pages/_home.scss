@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Welcome{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+    .sec-1{
+        width: 100%;
+        min-height: 700px;
+        background-color: rgba($color: #626161, $alpha: 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .download{
+            width: 100%;
+            min-height: 200px;
+            h1{
+                font-size: 75px;
+                font-weight: 700;
+                color: white;
+                font-family: poppins;
+            }
+            p{
+                font-size: 30px;
+                color: white;
+            }
+            .btn-1{
+                width: 270px;
+                min-height: 45px;
+                border-radius: 25px;
+                color: white;
+                border: none;
+                background-color: #E61C5D;
+            }
+            .btn-1:hover{
+                background-color: #cb1952;
+    
+            }
+            .btn-2{
+                width: 180px;
+                min-height: 45px;
+                border-radius: 25px;
+                color: white;
+                border: 1px solid white;
+                background-color: transparent;
+            }
+            .btn-2:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
+#aGorgeousPlace{
+    width: 100%;
+    min-height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .lorem{
+        width: 100%;
+        height: auto;
+        h1{
+            font-size: 75px;
+            font-family: poppins;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+            margin: 20px;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+}
+#youCanVisit{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .foodWines{
+        width: 100%;
+        min-height: 250px;
+        margin-top: 20px;
+        img{
+            max-width: 100%;
+        }
+        h5{
+            margin-top: 10px;
+            font-family: poppins;
+        }
+    }
+}
+#Recent{
+    width: 100%;
+    min-height: 700px;
+    
+    text-align: center;
+    .Blog{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        h1{
+            font-size: 75px;
+            font-family: poppins;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+            margin: 20px;
+        }
+    }
+    #myDiv{
+        width: 100%;
+        margin-bottom: 20px;
+        .myBox{
+            margin-top: 20px;
+            h4{
+                font-family: poppins;
+                margin-bottom: 20px;
+            }
+            img{
+                max-width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            button{
+                width: 70%;
+                min-height: 35px;
+                border-radius: 25px;
+                border: none;
+                background-color: #E61C5D;
+                color: white;
+            }
+            button:hover{
+                background-color: #cb1952;
+            }
+        }
+
+    }
+    .button{
+        width: 200px;
+        min-height: 35px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: #E61C5D;
+        margin-right: 30px;
+    }
+    .button:hover{
+        background-color: #cb1952;
+    }
+}
+
+
+#end{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+    .end-div{
+        width: 100%;
+        min-height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            color: white;
+        }
+    }
+}

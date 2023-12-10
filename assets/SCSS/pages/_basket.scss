@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#basket{
+    width: 100%;
+    min-height: 680px;
+    background-image: url('https://preview.colorlib.com/theme/villa/img/round.png');
+    #myDiv{
+        width: 100%;
+        margin-bottom: 20px;
+        .myBox{
+            width: 100%;
+            min-height: 400px;
+            margin-top: 20px;
+            text-align: center;
+            padding-top: 20px;
+            
+            .mb{
+                width: 100%;
+                min-height: 400px;
+                border: 3px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                background-color: rgb(153, 153, 153);
+                margin-top: 20px;
+                h4{
+                    font-family: poppins;
+                    margin-bottom: 20px;
+                    color: white;
+                }
+                img{
+                    width: 80%;
+                    height: 250px;
+                    border-radius: 50%;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+                button{
+                    width: 70%;
+                    min-height: 35px;
+                    border-radius: 25px;
+                    border: none;
+                    background-color: #E61C5D;
+                    color: white;
+                }
+                button:hover{
+                    background-color: #cb1952;
+                }
+            }
+        }
+    
+    }
+}
+ 
